@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ac_start"
+    android:background="@drawable/animation_backend"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartActivity">
+
+    <!--<ViewAnimator
+        android:layout_marginTop="54dp"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/logoAnim"
+
+    />-->
+
+    <Button
+        android:layout_width="120dp"
+        android:id="@+id/enter_bt"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+
+        android:layout_gravity="bottom"
+        android:textAllCaps="false"
+        android:layout_marginBottom="55dp"
+        android:textSize="8pt"
+        android:textColor="@android:color/white"
+        android:layout_alignParentBottom="true"
+        android:text="@string/Button_text"
+        android:background="@drawable/button_transparent_border_bg"
+        android:visibility="visible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/enter_bt"
+        android:layout_alignLeft="@id/enter_bt"
+        android:layout_alignParentBottom="true"
+        android:layout_alignTop="@id/enter_bt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:textColor="@android:color/white"
+        android:text="@string/enter_with_code"
+        android:layout_marginLeft="-9dp"
+        android:textSize="6pt" />
+        <!---->
+
+
+
+</RelativeLayout>

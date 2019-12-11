@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ITCubeApp</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="Button_text">Войти</string>
+    <string name="enter_with_code">Войти с помощью кода</string>
+</resources>
